@@ -10,6 +10,7 @@ class Product{
     ){}
 
     toString(){
+        // No Dry = Don't Repeat Yourself. Hacemos 3 validaciones y se está repitiendo el código
         if(this.name.length<=0) throw Error('name is empty')
         if(this.price<=0) throw Error('price is zero')
         if(this.size.length<=0) throw Error('size is empty')
