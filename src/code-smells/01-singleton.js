@@ -4,6 +4,8 @@
  * No está adentro de ninguna función.
  * No está dentro de alguna clase
  * Está en donde la computadora, lo quiera colocar en la memoria ram
+ * cualquier componente puede disparar los cambios
+ * apunta a la misma dirección de memoria.
  */
 
 const Singleton = (function () {
